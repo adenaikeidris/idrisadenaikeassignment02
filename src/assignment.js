@@ -29,11 +29,20 @@ function sumOfNumbers(arrayOfNumbers) {
  * 
  * @param {Array} arrayOfNumbers the array containing even or non-even numbers
  * @returns number the count of even numbers
- */
-function countEvenNumbers(arrayOfNumbers) {
-    return arrayOfNumbers.length;
-}
-// assignment.countEvenNumbers = countEvenNumbers;
+ */  const numbers = [21,22,23,24,25,26,27,28,29,30]
+      function evenNumbers(numbers){
+      let count = 0;
+      for ( var i = 0; i<numbers.length; i++ ){ 
+       if (numbers[i] % 2 == 0){
+      count++;
+        }
+       }
+  return count;
+       };
+    function countEvenNumbers(evenNumbers) {
+    return evenNumbers.length;
+     }
+    assignment.countEvenNumbers = countEvenNumbers;
 
 /**
  * Challenge - 3
